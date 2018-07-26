@@ -1,0 +1,1267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18edfc3a-f6ec-4485-b073-641685d7a6aa" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Rules.mk" beforeDir="false" afterPath="$PROJECT_DIR$/Rules.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/assets.go" beforeDir="false" afterPath="$PROJECT_DIR$/assets/assets.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Rules.mk" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Rules.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/check_go_path" beforeDir="false" afterPath="$PROJECT_DIR$/bin/check_go_path" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/blockstoreutil/remove.go" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/blockstoreutil/remove.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockservice/blockservice.go" beforeDir="false" afterPath="$PROJECT_DIR$/blockservice/blockservice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockservice/blockservice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/blockservice/blockservice_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockservice/test/blocks_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/blockservice/test/blocks_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/ipfs/Rules.mk" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/ipfs/Rules.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/ipfs/daemon.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/ipfs/daemon.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/ipfs/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/ipfs/init.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/ipfs/ipfs.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/ipfs/ipfs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/ipfs/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/ipfs/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/ipfs/runmain_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/ipfs/util/ulimit.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/ipfs/util/ulimit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/ipfswatch/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/ipfswatch/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/seccat/seccat.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/seccat/seccat.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/seccat/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/seccat/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/command.go" beforeDir="false" afterPath="$PROJECT_DIR$/commands/command.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/legacy/command.go" beforeDir="false" afterPath="$PROJECT_DIR$/commands/legacy/command.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/legacy/legacy.go" beforeDir="false" afterPath="$PROJECT_DIR$/commands/legacy/legacy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/legacy/legacy_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/commands/legacy/legacy_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/legacy/request.go" beforeDir="false" afterPath="$PROJECT_DIR$/commands/legacy/request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/legacy/response.go" beforeDir="false" afterPath="$PROJECT_DIR$/commands/legacy/response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/request.go" beforeDir="false" afterPath="$PROJECT_DIR$/commands/request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/response.go" beforeDir="false" afterPath="$PROJECT_DIR$/commands/response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bootstrap.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/bootstrap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bootstrap_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/bootstrap_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/builder.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/builder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/active.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/active.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/add.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/add.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/bitswap.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/bitswap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/block.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/block.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/bootstrap.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/bootstrap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/cat.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/cat.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/commands.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/commands.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/commands_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/commands_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/dag/dag.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/dag/dag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/dht.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/dht.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/dht_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/dht_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/diag.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/diag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/dns.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/dns.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/external.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/external.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/files.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/files.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/filestore.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/filestore.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/get.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/get.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/get_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/get_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/helptext_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/helptext_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/id.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/id.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/ipns.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/ipns.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/ipnsps.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/ipnsps.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/keystore.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/keystore.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/log.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/log.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/ls.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/ls.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/mount_nofuse.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/mount_nofuse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/mount_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/mount_unix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/mount_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/mount_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/name.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/name.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/object/diff.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/object/diff.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/object/object.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/object/object.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/object/patch.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/object/patch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/p2p.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/p2p.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/pin.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/pin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/ping.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/ping.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/publish.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/publish.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/pubsub.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/pubsub.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/refs.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/refs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/repo.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/repo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/resolve.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/resolve.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/root.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/shutdown.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/shutdown.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/stat.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/stat.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/swarm.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/swarm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/sysdiag.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/sysdiag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/tar.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/tar.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/unixfs/ls.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/unixfs/ls.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/unixfs/unixfs.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/unixfs/unixfs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/urlstore.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/urlstore.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/version.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/version.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/core.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/core_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/core_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/block.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/block.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/block_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/block_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/dag.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/dag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/dag_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/dag_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/interface/coreapi.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/interface/coreapi.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/interface/dag.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/interface/dag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/interface/object.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/interface/object.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/interface/options/block.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/interface/options/block.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/interface/options/dag.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/interface/options/dag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/interface/path.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/interface/path.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/interface/unixfs.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/interface/unixfs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/key.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/key.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/name.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/name.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/object.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/object.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/path.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/path.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/pin.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/pin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/unixfs.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/unixfs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreapi/unixfs_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreapi/unixfs_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coredag/cbor.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coredag/cbor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coredag/dagpb.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coredag/dagpb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coredag/dagtransl.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coredag/dagtransl.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coredag/raw.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coredag/raw.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/corehttp/commands.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/corehttp/commands.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/corehttp/corehttp.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/corehttp/corehttp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/corehttp/gateway_handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/corehttp/gateway_handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/corehttp/gateway_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/corehttp/gateway_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/corehttp/logs.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/corehttp/logs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/corehttp/metrics_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/corehttp/metrics_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/corerepo/gc.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/corerepo/gc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/corerepo/pinning.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/corerepo/pinning.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreunix/add.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreunix/add.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreunix/add_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreunix/add_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreunix/metadata.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreunix/metadata.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/coreunix/metadata_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/coreunix/metadata_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mock/mock.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/mock/mock.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pathresolver.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/pathresolver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/bitswap.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/bitswap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/bitswap_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/bitswap_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/decision/bench_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/decision/bench_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/decision/engine.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/decision/engine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/decision/engine_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/decision/engine_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/decision/ledger.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/decision/ledger.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/decision/peer_request_queue.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/decision/peer_request_queue.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/decision/peer_request_queue_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/decision/peer_request_queue_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/get.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/get.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/message/message.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/message/message.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/message/message_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/message/message_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/network/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/network/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/network/ipfs_impl.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/network/ipfs_impl.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/notifications/notifications.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/notifications/notifications.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/notifications/notifications_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/notifications/notifications_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/session.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/session.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/session_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/session_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/stat.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/stat.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/testnet/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/testnet/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/testnet/network_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/testnet/network_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/testnet/peernet.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/testnet/peernet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/testnet/virtual.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/testnet/virtual.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/testutils.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/testutils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/wantlist/wantlist.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/wantlist/wantlist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/wantlist/wantlist_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/wantlist/wantlist_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/wantmanager.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/wantmanager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/bitswap/workers.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/bitswap/workers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/reprovide/providers.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/reprovide/providers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/reprovide/reprovide.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/reprovide/reprovide.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/reprovide/reprovide_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/reprovide/reprovide_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filestore/filestore.go" beforeDir="false" afterPath="$PROJECT_DIR$/filestore/filestore.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filestore/filestore_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/filestore/filestore_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filestore/fsrefstore.go" beforeDir="false" afterPath="$PROJECT_DIR$/filestore/fsrefstore.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filestore/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/filestore/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuse/ipns/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/fuse/ipns/common.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuse/ipns/ipns_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/fuse/ipns/ipns_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuse/ipns/ipns_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/fuse/ipns/ipns_unix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuse/ipns/link_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/fuse/ipns/link_unix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuse/mount/fuse.go" beforeDir="false" afterPath="$PROJECT_DIR$/fuse/mount/fuse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuse/mount/mount.go" beforeDir="false" afterPath="$PROJECT_DIR$/fuse/mount/mount.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuse/node/mount_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/fuse/node/mount_unix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuse/readonly/ipfs_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/fuse/readonly/ipfs_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuse/readonly/readonly_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/fuse/readonly/readonly_unix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/importer/balanced/balanced_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/importer/balanced/balanced_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/importer/balanced/builder.go" beforeDir="false" afterPath="$PROJECT_DIR$/importer/balanced/builder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/importer/helpers/dagbuilder.go" beforeDir="false" afterPath="$PROJECT_DIR$/importer/helpers/dagbuilder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/importer/helpers/helpers.go" beforeDir="false" afterPath="$PROJECT_DIR$/importer/helpers/helpers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/importer/importer.go" beforeDir="false" afterPath="$PROJECT_DIR$/importer/importer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/importer/importer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/importer/importer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/importer/trickle/trickle_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/importer/trickle/trickle_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/importer/trickle/trickledag.go" beforeDir="false" afterPath="$PROJECT_DIR$/importer/trickle/trickledag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keystore/keystore.go" beforeDir="false" afterPath="$PROJECT_DIR$/keystore/keystore.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keystore/keystore_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/keystore/keystore_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keystore/memkeystore.go" beforeDir="false" afterPath="$PROJECT_DIR$/keystore/memkeystore.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/coding.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/coding.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/errservice.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/errservice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/merkledag.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/merkledag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/merkledag_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/merkledag_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/node.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/node.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/node_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/node_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/raw.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/raw.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/readonly.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/readonly.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/readonly_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/readonly_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/rwservice.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/rwservice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/session.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/session.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/test/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/test/utils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/traverse/traverse.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/traverse/traverse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/traverse/traverse_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/traverse/traverse_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/utils/diff.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/utils/diff.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/utils/diffenum.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/utils/diffenum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/utils/diffenum_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/utils/diffenum_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/utils/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/utils/utils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkledag/utils/utils_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/merkledag/utils/utils_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfs/dir.go" beforeDir="false" afterPath="$PROJECT_DIR$/mfs/dir.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfs/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/mfs/file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfs/mfs_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/mfs/mfs_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfs/ops.go" beforeDir="false" afterPath="$PROJECT_DIR$/mfs/ops.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfs/repub_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/mfs/repub_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfs/system.go" beforeDir="false" afterPath="$PROJECT_DIR$/mfs/system.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mk/golang.mk" beforeDir="false" afterPath="$PROJECT_DIR$/mk/golang.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mk/header.mk" beforeDir="false" afterPath="$PROJECT_DIR$/mk/header.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/namesys/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/namesys/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/namesys/ipns_resolver_validation_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/namesys/ipns_resolver_validation_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/namesys/namesys.go" beforeDir="false" afterPath="$PROJECT_DIR$/namesys/namesys.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/namesys/namesys_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/namesys/namesys_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/namesys/publisher.go" beforeDir="false" afterPath="$PROJECT_DIR$/namesys/publisher.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/namesys/publisher_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/namesys/publisher_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/namesys/republisher/repub.go" beforeDir="false" afterPath="$PROJECT_DIR$/namesys/republisher/repub.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/namesys/republisher/repub_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/namesys/republisher/repub_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/namesys/resolve_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/namesys/resolve_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/namesys/routing.go" beforeDir="false" afterPath="$PROJECT_DIR$/namesys/routing.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/p2p.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/p2p.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/registry.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/registry.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/path/path.go" beforeDir="false" afterPath="$PROJECT_DIR$/path/path.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/path/resolver/resolver.go" beforeDir="false" afterPath="$PROJECT_DIR$/path/resolver/resolver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/path/resolver/resolver_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/path/resolver/resolver_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pin/gc/gc.go" beforeDir="false" afterPath="$PROJECT_DIR$/pin/gc/gc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pin/pin.go" beforeDir="false" afterPath="$PROJECT_DIR$/pin/pin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pin/pin_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pin/pin_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pin/set.go" beforeDir="false" afterPath="$PROJECT_DIR$/pin/set.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pin/set_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pin/set_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/ipld.go" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/ipld.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/loader/initializer.go" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/loader/initializer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/loader/load.go" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/loader/load.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/plugins/git/git.go" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/plugins/git/git.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/config/bootstrap_peers.go" beforeDir="false" afterPath="$PROJECT_DIR$/repo/config/bootstrap_peers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/config/identity.go" beforeDir="false" afterPath="$PROJECT_DIR$/repo/config/identity.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/config/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/repo/config/init.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/fsrepo/datastores.go" beforeDir="false" afterPath="$PROJECT_DIR$/repo/fsrepo/datastores.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/fsrepo/fsrepo.go" beforeDir="false" afterPath="$PROJECT_DIR$/repo/fsrepo/fsrepo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/fsrepo/fsrepo_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/repo/fsrepo/fsrepo_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/mock.go" beforeDir="false" afterPath="$PROJECT_DIR$/repo/mock.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/repo.go" beforeDir="false" afterPath="$PROJECT_DIR$/repo/repo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tar/format.go" beforeDir="false" afterPath="$PROJECT_DIR$/tar/format.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dependencies/ma-pipe-unidir/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/dependencies/ma-pipe-unidir/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/addcat_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/addcat_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/bench_cat_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/bench_cat_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/bitswap_wo_routing_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/bitswap_wo_routing_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/three_legged_cat_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/three_legged_cat_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thirdparty/notifier/notifier.go" beforeDir="false" afterPath="$PROJECT_DIR$/thirdparty/notifier/notifier.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thirdparty/pollEndpoint/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/thirdparty/pollEndpoint/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thirdparty/verifbs/verifbs.go" beforeDir="false" afterPath="$PROJECT_DIR$/thirdparty/verifbs/verifbs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thirdparty/verifcid/validate.go" beforeDir="false" afterPath="$PROJECT_DIR$/thirdparty/verifcid/validate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thirdparty/verifcid/validate_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/thirdparty/verifcid/validate_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unixfs/archive/archive.go" beforeDir="false" afterPath="$PROJECT_DIR$/unixfs/archive/archive.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unixfs/archive/tar/writer.go" beforeDir="false" afterPath="$PROJECT_DIR$/unixfs/archive/tar/writer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unixfs/hamt/hamt.go" beforeDir="false" afterPath="$PROJECT_DIR$/unixfs/hamt/hamt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unixfs/hamt/hamt_stress_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/unixfs/hamt/hamt_stress_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unixfs/hamt/hamt_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/unixfs/hamt/hamt_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unixfs/io/dagreader.go" beforeDir="false" afterPath="$PROJECT_DIR$/unixfs/io/dagreader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unixfs/io/directory.go" beforeDir="false" afterPath="$PROJECT_DIR$/unixfs/io/directory.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unixfs/io/pbdagreader.go" beforeDir="false" afterPath="$PROJECT_DIR$/unixfs/io/pbdagreader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unixfs/io/resolve.go" beforeDir="false" afterPath="$PROJECT_DIR$/unixfs/io/resolve.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unixfs/mod/dagmodifier.go" beforeDir="false" afterPath="$PROJECT_DIR$/unixfs/mod/dagmodifier.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unixfs/test/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/unixfs/test/utils.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmd/ipfs/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="132" selection-start-line="132" selection-end-line="132" />
+              <folding>
+                <element signature="e#69#969#0" expanded="true" />
+                <element signature="e#3524#3769#0" />
+                <element signature="e#4594#4916#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="request.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commands/request.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#18#247#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helptext.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../go-ipfs-cmds/cli/helptext.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
+              <folding>
+                <element signature="e#13#149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../go-ipfs-cmds/cli/run.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-73">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#13#144#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="executor.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../go-ipfs-cmds/executor.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="107" column="11" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="daemon.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmd/ipfs/daemon.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="257" column="27" selection-start-line="257" selection-start-column="27" selection-end-line="257" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="migrations.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/repo/fsrepo/migrations/migrations.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lp_unix.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/os/exec/lp_unix.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="982">
+              <caret line="52" column="32" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fsrepo.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repo/fsrepo/fsrepo.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="155" column="36" selection-start-line="155" selection-start-column="20" selection-end-line="155" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parse.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../go-ipfs-cmds/cli/parse.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#13#277#0" expanded="true" />
+                <element signature="e#2650#2770#0" />
+                <element signature="e#2773#3049#0" />
+                <element signature="e#3053#3422#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gx/ipfs/QmZR2XWVVBCtbgBWnQhWk2xcQfaR3W8faQPriAiaaj7rsr/go-libp2p-peerstore</find>
+      <find>gx/ipfs/Qmb8T6YBBsjYsVGfrihQLfCJveczZnneSBqBKkYEBWDjge/go-libp2p-host</find>
+      <find>gx/ipfs/QmdVrMn1LhB4ybb8hMVaMLXnA8XRSewMnK6YqXKXoTcRvN/go-libp2p-peer</find>
+      <find>gx/ipfs/QmZNkThpqfVXs9GNbexPrfBbXSLNYeKrE7jwFM2oqHbyqN/go-libp2p-protocol</find>
+      <find>gx/ipfs/QmeiCcJfDW1GJnWUArudsv5rQsihpi4oyddPhdqo3CfX6i/go-datastore</find>
+      <find>gx/ipfs/QmSF8fPo3jgVBAy8fpdjjYqgG87dkJgUprRBHRd2tmfgpP/goprocess</find>
+      <find>gx/ipfs/QmSJBsmLP1XMjv8hxYg2rUMdPDB7YUpyBo9idjrJ6Cmq6F/fuse</find>
+      <find>gx/ipfs/Qme1knMqwt1hKZbc1BmQFmnm9f36nyQGwXxPGVpVJ9rMK5/go-libp2p-crypto</find>
+      <find>gx/ipfs/Qmdue1XShFNi3mpizGx9NR9hyNEj6U2wEW93yGhKqKCFGN/go-ipns</find>
+      <find>QmaovxzXCm7NMURpC9U5M6QCyHcumPDYAFSq5Rkr8M8CW1</find>
+      <find>gx/ipfs/QmdE4gMduCKCGAcczM2F5ioYDfdeKuPix138wrES1YSr7f/go-ipfs-cmdkit</find>
+      <find>io</find>
+      <find>NewIntrHandler</find>
+      <find>close</find>
+      <find>setupInterruptHandler</find>
+      <find>cli</find>
+      <find>cmdDetails</find>
+      <find>ma</find>
+      <find>init</find>
+      <find>dns4</find>
+      <find>go-multiaddr-dns</find>
+      <find>ProtocolWithCode</find>
+      <find>Dns4Protocol</find>
+      <find>daemon</find>
+      <find>getApiClient</find>
+      <find>Run</find>
+      <find>commandShouldRunOnDaemon</find>
+      <find>parseState</find>
+      <find>LookPath</find>
+      <find>daemonFunc</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>github.com/libp2p/go-libp2p-loggables</replace>
+      <replace>github.com/multiformats/go-multiaddr-net</replace>
+      <replace>github.com/multiformats/go-multiaddr</replace>
+      <replace>github.com/ipfs/go-log</replace>
+      <replace>github.com/libp2p/go-libp2p-net</replace>
+      <replace>github.com/ipfs/go-cid</replace>
+      <replace>github.com/gogo/protobuf/io</replace>
+      <replace>github.com/ipfs/go-ipld-format</replace>
+      <replace>https://github.com/ipfs/go-block-format</replace>
+      <replace>github.com/ipfs/go-block-format</replace>
+      <replace />
+      <replace>github.com/multiformats/go-multihash/issues</replace>
+      <replace>github.com/multiformats/go-multihash</replace>
+      <replace>github.com/libp2p/go-libp2p-interface-connmgr</replace>
+      <replace>github.com/libp2p/go-libp2p-routing</replace>
+      <replace>github.com/libp2p/go-libp2p-peerstore</replace>
+      <replace>github.com/libp2p/go-libp2p-host</replace>
+      <replace>github.com/libp2p/go-libp2p-peer</replace>
+      <replace>github.com/libp2p/go-libp2p-protocol</replace>
+      <replace>github.com/jbenet/go-datastore</replace>
+      <replace>github.com/ipfs/go-datastore</replace>
+      <replace>github.com/jbenet/goprocess</replace>
+      <replace>bazil.org/fuse</replace>
+      <replace>github.com/libp2p/go-libp2p-crypto</replace>
+      <replace>github.com/ipfs/go-ipns</replace>
+      <replace>github.com/ipfs/go-ipfs-cmdkit</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/vendor/gx/ipfs/QmPnFwZ2JXKnXgMw8CdBPxn7FWh6LLdjUjxV1fKHuJnkr8/go-multihash</dir>
+      <dir>$PROJECT_DIR$/../../multiformats/go-multiaddr-dns</dir>
+      <dir>$PROJECT_DIR$/vendor</dir>
+      <dir>$PROJECT_DIR$/../../multiformats/go-multiaddr</dir>
+      <dir>$PROJECT_DIR$/../../multiformats</dir>
+      <dir>$PROJECT_DIR$/../go-ipfs-cmds</dir>
+      <dir>$PROJECT_DIR$/../go-ipfs-cmdkit</dir>
+    </dirStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.10.3/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/exchange/bitswap/message/message.go" />
+        <option value="$PROJECT_DIR$/merkledag/coding.go" />
+        <option value="$PROJECT_DIR$/merkledag/node.go" />
+        <option value="$PROJECT_DIR$/exchange/bitswap/network/ipfs_impl.go" />
+        <option value="$PROJECT_DIR$/exchange/bitswap/network/interface.go" />
+        <option value="$PROJECT_DIR$/merkledag/utils/utils.go" />
+        <option value="$PROJECT_DIR$/exchange/bitswap/testnet/peernet.go" />
+        <option value="$PROJECT_DIR$/exchange/bitswap/bitswap.go" />
+        <option value="$PROJECT_DIR$/fuse/mount/fuse.go" />
+        <option value="$PROJECT_DIR$/repo/config/init.go" />
+        <option value="$PROJECT_DIR$/namesys/publisher.go" />
+        <option value="$PROJECT_DIR$/repo/fsrepo/datastores.go" />
+        <option value="$PROJECT_DIR$/core/core.go" />
+        <option value="$PROJECT_DIR$/commands/legacy/request.go" />
+        <option value="$PROJECT_DIR$/commands/legacy/response.go" />
+        <option value="$PROJECT_DIR$/commands/command.go" />
+        <option value="$PROJECT_DIR$/commands/request.go" />
+        <option value="$PROJECT_DIR$/commands/response.go" />
+        <option value="$PROJECT_DIR$/core/commands/dag/dag.go" />
+        <option value="$PROJECT_DIR$/cmd/ipfs/main.go" />
+        <option value="$PROJECT_DIR$/cmd/ipfs/runmain_test.go" />
+        <option value="$PROJECT_DIR$/repo/config/bootstrap_peers.go" />
+        <option value="$PROJECT_DIR$/cmd/ipfs/daemon.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmNNARAR2ncSEDKGVAjsE77VYAtNE6qMMPEC7hfWMwMdF9/yaml.v2/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmNeSwALyTCrgtCTsPiF7tcDN6uLtdi8qCMtFm7nct1nm1/httprouter/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmNi5J1mEQKAKWbPRBEMKKYVNok9EN4MsGM4YUqPvraPEX/go-crypto-dav/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmNtxDQBrVzy88FEjVikyM5tAbyfnHm5jJbJZcUhVykusq/snappy/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmNu2sEu7LuoBQbnSoy8u6wk6oWwFX8L5nVVUZoK7J67oQ/go-runewidth/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmNueRyPRQiV7PUEpnP4GgGLuK1rKQLaRW7sfPvUetYig1/go-ipfs-cmds/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmNzEyX7vjWiqinyLeavcAF1oegav6dZ1aQpAkYvG9m5Ze/go-sockaddr/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmPCdWsL88nB7fzvhLRhBMo1QVLtt6Vm7ee7N9ZoUsqpPL/iptb/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmPG2kW5t27LuHgHnvhUwbHCNHAt2eUcb4gPHqofrESUdB/cors/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmPJUtEJsm5YLUWhF6imvyCH8KZXRJa9Wup7FDMwTy5Ufz/backoff/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmPSBJL4momYnE7DcUyk2DVhD6rH488ZmHBGLbxNdhU44K/go-humanize/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmPWdUPQGR7djd2UCwnAkNaRMZ8pfTiBa35Kj7Lmky1QLX/ginkgo/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmPdKqUcHGFdeSpvjVoaTRPPstGif9GBZb5Q56RVw9o69A/go-ipfs-util/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmPjvxTpVH8qJyQDnxnsxF9kv9jezKD1kozz1hs3fCGsNh/go-libp2p-net/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmPnFwZ2JXKnXgMw8CdBPxn7FWh6LLdjUjxV1fKHuJnkr8/go-multihash/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmPtj12fdwuAqj9sBSTNUxBNu8kCGNp8b3o8yUzMm5GHpq/pb/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmQ51pHe6u7CWodkUGDLqaCEMchkbMt7VEZnECF5mp6tVb/ed25519/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmQ8t8yZJv6bTgnDcHMPMgpUcSTnpNMGPjFxmGwZ2MWak9/go-nat/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmQFXpvKpF34dK9HcE7k8Ksk8V4BwWYZtdEcjzu5aUgRVr/go-flow-metrics/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmQNQhNmY4STU1MURjH9vYEMpx2ncMS4gbwxXWtrEjzVAq/go-todocounter/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmQYwRL1T9dJtdCScoeRQwwvScbJTcWqnXhq4dYQ6Cu5vX/go-libp2p-kad-dht/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmQine7gvHncNevKtG9QXxf3nXcwSj6aDDmMm52mHofEEp/tar-utils/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmQpvpeXa8rBfDmt3bdh2ckw2867vsYN1ozf79X7U5rij9/go-libp2p-routing-helpers/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmQscWDtDBDsWAM58aY6gU2KtxyFFmvvZgdfJExYPLgtXA/mafmt/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmQtBcHtRy9BxjawZjWJBn8aSKbqraBnQiVsc3wt9w9TTn/goupnp/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmQvJiADDe7JR4m968MwXobTCCzUqQkP87aRHe29MEBGHV/go-logging/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmRDePEiL4Yupq5EkcK3L3ko3iMgYaqUdLu7xc1kqs7dnV/go-multicodec/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmRFFHk2jw9tgjxv12bCuuTnSbVXxEvYQkuNCLMEv9eUwP/go-farm/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmRGvSwDpN4eunxgDNfmQhayZ6Z9F5a2v31V2D7y77osLg/go-libp2p-pnet/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmRJVNatYJwTAHgdSM1Xef9QVQ1Ch3XHdmcrykjP5Y4soL/go-ipfs-delay/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmRMGdC6HKdLsPDABL9aXPDidrpmEHzJqFWSvshkbn9Hj8/go-ipfs-flags/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmRPkGkHLB72caXgdDYnoaWigXNWx95BcYDKV1n3KTEpaG/go-libp2p-loggables/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmRatnbGjPcoyzVjfixMZnuT1xQbjM7FgnL6FX4CKJeDE2/go-ipfs-blockstore/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmRg1gKTHzc3CZXSKzem8aR4E3TubFhbgXwfVuWnSK5CC5/go-metrics-interface/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmRgLNKyQBZSCh4UJHy1gJ3VbhPpByprv6WTEi7G7qG2Lm/go-multiplex/interop/js/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmRgLNKyQBZSCh4UJHy1gJ3VbhPpByprv6WTEi7G7qG2Lm/go-multiplex/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmSERhEpow33rKAUMJq8yfJVQjLmdABGg899cXg7GcX1Bk/common/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmSF8fPo3jgVBAy8fpdjjYqgG87dkJgUprRBHRd2tmfgpP/goprocess/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmSGRM5Udmy1jsFBr1Cawez7Lt7LZ3ZKA23GGVEsiEW6F3/eventfd/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmSHjPDw8yNgLZ7cBfX7w3Smn7PHwYhNEpd4LHQQxUg35L/go-ipfs-posinfo/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmSJBsmLP1XMjv8hxYg2rUMdPDB7YUpyBo9idjrJ6Cmq6F/fuse/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmSMZwvs3n4GBikZ7hKzT17c3bk65FmyZo2JqtJ16swqCv/multiaddr-filter/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmSPD4WJu73TE4eJgzbZQTpmfyT5hsh3SEsZnpBAXpaBDA/go-libp2p-floodsub/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmSW4uNHbvQia8iZDXzbwjiyHQtnyo9aFqfQAMasj3TJ6Y/go-maddr-filter/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmShbyKV9P7QuFecDHXsgrQ4rxxm71MUkGVpwedT4VQ8Bf/go-ipfs-exchange-offline/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmT1Q44YeQXSiK3LBXbXBRdxJAFZZSTarseqt7DVe9ASNA/go-libp2p-blankhost/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmT6n4mspWYEya864BhCUJEgyxiRfmiSY9ruQwTUNpRKaM/protobuf/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/html/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmTEmsyNnckEq8rEfALfdhLHjrEHGoSGFDrAYReuetn7MC/go-net/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmTKsRYeY4simJyf37K93juSq75Lo8MVCDJ7owjmf46u8W/go-context/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmTVvctiHWZzSDZdyU5wdnXh7VF3kprHSyQFwVChos5qKu/golang-levenshtein/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmTbBs3Y3u5F69XNJzdnnc6SP5GKgcXxCDzx6w8m6piVRT/go-bitfield/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmTsHcKgTQ4VeYZd8eKYpTXeLW7KNwkRD9wjnrwsV2sToq/go-colorable/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmUGLYA38oUQstGTYfG3ECcu4G9QT8aHfy72bjHLyx7zzh/go-metrics-prometheus/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmUTQ9rzQf52c4MU4ESFbTF8RaUKtQztcAp6ww8wF3ahxC/go-ws-transport/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmUTvbhkVteiGNkYJ5CN953NtGTPbgctcLk2WU1JVDV6TR/go-libp2p-circuit/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmUsh7scAkKe2erRhfGJpvxokArYL46ye2EJvFEp6XSbLr/golang_protobuf_extensions/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmUusaX99BZoELh7dmPgirqRQ1FAmMnmnBn3oiqDFGBUSc/go-keyspace/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmV6FjemM1K8oXjrvuq3wuVWWoU2TLDPmNnKrxHzY3v6Ai/go-multiaddr-net/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmVDjhUMtkRskBFAVNwyXuLSKbeAya7JKPnzAxMKDaK4x4/go-ipfs-chunker/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmVGjyM9i2msKvLXwh9VosCTgP4mL91kC7hDmqnwTTx6Hu/sys/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmVTAmbCaPqdfbmpWDCJMQNFxbyJoG2USFsumXmTWY5LFp/go-codec/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmVYxfoJQiZijTgPNHCHgHELvQpbsJNTg6Crmc3dQkj3yy/golang-lru/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmVcLF2CgjQb5BWmYFWsDfxDjbzBfcChfdHRedxeL3dV4K/cli/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmVmDhyTTUcQXFD1rRQ64fGLMSAoaQvNH3hwuaCFAPq2hy/errors/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmVqCSwuzgDfhLMTmFfUePTGX78PBjzuHcbSWWNPrnrmKy/go-libp2p-swarm/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmVsp2KdPYE6M8ryzCk5KHLo3zprcY5hBDaYx6uPCFUdxA/go-libp2p-record/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmVzK524a2VWLqyvtBeiHKsUAWYgeAk4DBeZoY7vpNPNRx/go-block-format/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmW5LxJm2Yo3S7uVsfLM7NsJn2QnKbvZD7uYsZVYR7YViE/go-libp2p-transport/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmW7Ump7YyBMr712Ta3iEVh3ZYcfVvJaPryfbCnyE826b4/go-libp2p-interface-pnet/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmW7VUmSvhvSGbYbdsh7uRjhGmsYkc9fL8aJ5CorxxrU5N/go-crypto/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmWBug6eBS7AxRdCDVuSY5CnSit7cS2XnPFYJWqWDumhCG/go-msgio/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmWFAMPqsEyUX7gDUsRVmMWz59FxSpJ1b2v6bJ1yYzo7jY/go-base58-fast/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmWHgLqrghM9zw77nF6gdvT9ExQ2RB9pLxkd8sDHZf1rWb/go-temp-err-catcher/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmWLWmRVSiagqP15jczsGME1qpob6HDbtbHAY2he9W5iUo/opentracing-go/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmWSvDKkcno2UyDg13rUBwWfhRsdj7uR3daAq57VoG5QeN/mdns/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmWUtfQveCqT8cgNzN54at4sDMiFbANFRFCXuSDiTqJwC8/go-ipfs-addr/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmWVGFCGGTAGrT3adV261k1h6nntcyDhGVszGV2i2pzwPe/go-isatty/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmWXBDv6hM1bWXVvEukgpu32xMyKfjATwupnfrjQ4pF3vG/hang-fds/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmWchsfMt9Re1CQaiHqPQC1DrZ9bkpa6n229dRYkGyLXNh/dns/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmWq5PJgAQKDWQerAijYUVKW8mN5MDatK5j7VMp8rizKQd/btcec/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmWrbExtUaQQHjJ8FVVDAWj5o1MRAELDUV3VmoQsZHHb6L/go-ipld-cbor/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmWsJXti4Nft4vXR8brjG2fJCUDWeJpwNVngyU42pByJxN/color/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmWzjXAyBTygw6CeCTUnhJzhFucfxY5FJivSoiGuiSbPjS/go-smux-multistream/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmX3QZ5jHEPidwUrymXV1iSCSUhdGxj15sm2gP4jKMef7B/client_golang/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmXMPT8tVwqKHZKWxnrfbYqUEaDJ5SF3Yh3fnFthaSrU37/xhandler/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmXSs8cccbT4zDR95c1iRpYKDqVMzqeF1J6iZcavgE6eNw/protobuf/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmXTpwq2AkzQsPjKqFQDNY2bMdsAT53hUBETeyj8QRHTZU/sha256-simd/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmXez8SABR95KKKgU9XFtTTQ79QRn2nWS9o5pa1EcHsLs5/go-ds-measure/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmXqKGu7QzfRzFC4yd5aL9sThYx22vY163VGwmxfp5qGHk/bbloom/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmXuBJ7DR6k3rmUEKtvVMhwjmXDuJgXXPUt4LQXKBMsU93/go-os-helper/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmXuucFcuvAWYAJfhHV2h4BYreHEAsLSsiquosiXeuduTN/go-libp2p-interface-connmgr/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmXvBj8ojY4GdR4a2pVwFtmSK7HJ5JxSCGjY5zYNUkcPff/go-addr-util/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmXzYnwYnJiDDV9y4QmbmtSeVyJ1R8HAmGnrnY2D6G3YcV/go-libp2p-secio/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmY2RG1xye7iWhBNa9VzxYHnnSRuBMajAEU2AarMSZ9iLe/gomega/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmY9JXR3FupnYAYJWK9aMr9bCpqWKcToQ1tz8DVGTrHpHw/go-stream-muxer/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmYAL9JsqVVPFWwM1ZzHNsofmTzRYQHJ2KqQaBmFJjJsNx/go-libp2p-connmgr/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmYBJ8BXPDTMnzLFdv4rS5kbR1fUFASDVDpK7ZbeWMx6hq/go-check/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmYDxsntDcWC7CTisDmeorEvDVjkRAjjY9Vr9DJ6HSkXMS/go4-lock/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmYMGCwtKbLXfh2MUTbLoP66N9Y24DSg8PFJRG21eE2qwv/go-conn-security/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmYNGtJHgaGZkpzq8yG6Wxqm6EQTKqgpBfnyyGBKbZeDUi/go-randbuf/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmYRGECuvQnRX73fcvPnGbYijBcGN2HbKZQ7jh26qmLiHG/semver/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmYVNvtQkeZ6AKSwDrjQTs432QtL6umrrK41EBq3cu7iSP/go-cid/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmYftoT56eEfUBTD3erR6heXuPSUhGRezSmhSU8LeczP8b/timecache/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmYkNhwAviNzN974MB3koxuBRhtbvCotnuQcugrPF96BPp/client_model/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmYmsdtJ3HsodkePE3eU3TsCaP2YvPZJ4LoXnNkDE5Tpt7/go-multiaddr/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmYnf27kzqR2cxt6LFZdrAFJuQd6785fTkBvMuEj9EeRxM/proquint/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmYqPGpZ9Yemr55xus9DiEztkns6Jti5XJ7hC94JbvkdqZ/go-ipfs-blocksutil/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmYsYNh6saxUYHajdj49uiRzdxQgiFTtymrjf3d1f2Cer4/go-nat-pmp/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmYzCZUe9CBDkyPNPcRNqXQK8KKhtUfXvc88PkFujAEJPe/go-fs-lock/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmZ383TySJVeZWzGnWui6pRcKyYZk9VkKTuW7tmKRWk5au/go-libp2p-routing/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmZ4Qi3GaRbjcx28Sme5eMH7RQjGkt8wHxt2a65oLaeFEV/gogo-protobuf/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmZH5VXfAJouGMyCCHTRPGCT3e5MG9Lu78Ln3YAYW1XTts/websocket/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmZHiqdRuNXujvSPNu1ZWxxzV6a2WhoZpfYkesdgyaKF9f/go-smux-multiplex/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmZLUtHGe9HDQrreAYkXCzzK6mHVByV4MRd8heXAtV5wyS/stump/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmZNkThpqfVXs9GNbexPrfBbXSLNYeKrE7jwFM2oqHbyqN/go-libp2p-protocol/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmZR2XWVVBCtbgBWnQhWk2xcQfaR3W8faQPriAiaaj7rsr/go-libp2p-peerstore/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmZRjKbHa6DenStpQJFiaPcEwkZqrx7TH6xTf342LDU3qM/go-sysinfo/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmZUbTDJ39JpvtFCSubiWeUTQRvMA1tVE5RZCJrY4oeAsC/go-ipfs-pq/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmZaZ4nkadScQtG7KaGUWyh24jz5tD8d6AyetJmGnMo49t/go-conn-security-multistream/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmZmmuAXgX73UQmX1jRKjTGmjzq24Jinqkq8vzkBtno4uX/go-is-domain/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmZooytqEoUwQjv7KzH4d3xyJnyvD3AWJaCDMYt5pbCtua/chunker/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmZp3eKdYQHHAneECmeK6HhiMwTPufmjC8DuuaGKv3unvx/blake2b-simd/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmZt87ZHYGaZFBrtGPEqYjAC2yNAhgiRDBmu8KaCzHjx6h/yamux/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmZtJMfZZvoD3EKpQaf8xsFi83HMtX5acQekY8exMbcWEi/keccakpg/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmZtNq8dArGfnpCZfx2pUNY7UcjGhVp5qqwQ4hH6mpTMRQ/go-ipld-format/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmaAXUjzKjKGAymaTJVZ6dkW8zqfLtwxFjCLvteh4fM4aC/go-libp2p-nat/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/Qmaau1d1WjnQdTYfRYfFVsCS97cgD8ATyrKuNoEfexL7JZ/go-text/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmaovxzXCm7NMURpC9U5M6QCyHcumPDYAFSq5Rkr8M8CW1/go-ds-badger/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmarUgTjwokWN8NyEuvRP5gSsJQpDecpRJEKxAi31pM7XX/go-ipld-git/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/Qmb4NghN5y3uGjiZCQWU6g1ZWRVmFCykLmByqxEVi7px1d/go-ds-leveldb/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/Qmb8T6YBBsjYsVGfrihQLfCJveczZnneSBqBKkYEBWDjge/go-libp2p-host/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmbFRJeEmEU16y3BmKKaD4a9fm5oHsEAMHe2vSB1UnfLMi/go-ipfs-routing/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmbNinL4ErzM73BxQSNf8q2vPmAM4v3MNQM2DmDqDjt47D/perks/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmbXRda5H2K3MSQyWWxTMtd8DWuguEBUCe6hpxfXVpFUGj/go-multistream/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/Qmbg4PQLEvf2XW8vrai9STFDerV7kttkfKcVdkoRf9Z7Xu/go-errwrap/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/Qmbu73y1Vomwtksx9evxQdgXAjr2pjEsATnGrS7NCk6KLU/go-tcp-transport/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/Qmbvv2urkn5Wtwws4yzjE85qRjB293EodchZofJsrTRuvN/go-lz4/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmbzWHWFpwCm7GDgrGyKnqUzh48PnRp86VD2Bb8wq6ZfDP/go-libp2p-transport-upgrader/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/Qmc1ExJkrEUesbvRNHq6g3bJ2km7K4XffcC2bvwdpfGYDx/go-ds-flatfs/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/Qmc2faLf7URkHpsbfYM4EMbr8iSAcGAe8VPgVi64HVnwji/go-ipfs-exchange-interface/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/Qmc5do1bC3JH73MThEgKgKkgNKLmqrvh2uaE6919yDmUaa/procfs/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmcBWojPoNh4qm7zvv4qiepvCnnc7ALS9qcp7TNwwxT1gT/go.uuid/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmcRKRQjNc2JZPHApR32fbkZVd6WXG2Ch9Kcy7sPxuAJgd/cbor/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmcVVHfdyv15GVPk7NrxdWjh2hLVccXnoD8j2tyQShiXJb/go-log/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmcW4FGAt24fdK1jBgWQn3yP4R9ZLyWQqjozv9QK7epRhL/go-testutil/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmcoBbyTiL9PFjo1GFixJwqQ8mZLJ36CribuqyKmS1okPu/go-libp2p-metrics/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmcrrEpx3VMUbrbgVroH3YiYyUS5c4YAykzyPJWKspUYLa/go-semver/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmcsgrV3nCAKjiHKZhKVXWc4oY3WBECJCqahXEMpHeMrev/go-smux-yamux/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmcxUtMB5sJrXR3znSvkrDd2ghvwGM8rLRqwJiPUdgQwat/go-libp2p-netutil/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/Qmd8UZEDddMaCnQ1G5eSrUhN3coX19V7SyXNQGWnAvUsnT/go-ipfs-ds-help/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmdE4gMduCKCGAcczM2F5ioYDfdeKuPix138wrES1YSr7f/go-ipfs-cmdkit/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmdVrMn1LhB4ybb8hMVaMLXnA8XRSewMnK6YqXKXoTcRvN/go-libp2p-peer/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmdYwCmx8pZRkzdcd8MhmLJqYVoVTC1aGsy5Q4reMGLNLg/atomicfile/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmdZ4PvPHFQVLLEve7DgoKDcSY19wwpGBB1GKjjKi2rEL1/dir-index-html/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmdbxjQWogRCHRaxhhGnYdT1oQJzL9GdqSKzCdqWr85AP2/pubsub/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/Qmdue1XShFNi3mpizGx9NR9hyNEj6U2wEW93yGhKqKCFGN/go-ipns/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/Qme1knMqwt1hKZbc1BmQFmnm9f36nyQGwXxPGVpVJ9rMK5/go-libp2p-crypto/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmeAEa8FDWAmZJTL6YcM1oEndZ4MyhCr5rTsjYZQui1x1L/badger/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmeEXG39Sg54qQcQHdjw4tJXDkv8t31kJtALzfTg44nN6h/go-libp2p-pubsub-router/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmeFPvhFJGXGiXAc9zunNxZjCaWgYQpcsdwip2NWLcccyw/GoEndian/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmeQW4ayVqi7Jjay1SrP2wYydsH9KwSrzQBnqyC25gPFnG/go-notifier/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmeRKt6jNuJuwq17Y3XC8wQX66Bgzf2chN4QydX7XSYKEY/go-reuseport-transport/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmeiCcJfDW1GJnWUArudsv5rQsihpi4oyddPhdqo3CfX6i/go-datastore/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmeoWapXvjjwRqLczX6ufvPTk6w8xzso35AoYNa8PRrDKs/go-reuseport/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmesQqwonP618R7cJZoFfA4ioYhhMKnDmtUxcAvvxEEGnw/go-libp2p-kbucket/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmexBtiTTEwwn42Yi6ouKt6VqzpA6wjJgiW1oh9VfaRrup/go-multibase/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/Qmf2fBLzCvFxs3vvZaoQyKSTv2rjApek4F1kzRxAfK6P4P/gateway/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/Qmf7HqcW7LtCi1W8y2bdx2eJpze74jkbKqpByxgXikdbLF/go-detect-race/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmfEZa44SyWfyXpkbVfi19H1QpY73DU6E5omK2HbKXwqR6/go-ctrlnet/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmfGQp6VVqdPCDyzEM6EGwMY74YPabTSEoQWHUxZuCSWj3/go-multierror/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmfJHywXQu98UeZtGJBQrPAR6AtmDjjbe3qjTo9piXHPnx/murmur3/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmfNjggF4Pt6erqg3NDafD3MdvDHk1qqCVr8pL5hnPucS8/fsnotify/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmfVj3x4D6Jkq9SEoi5n2NmoUomLwoeiwnYz2KQa15wRw6/base32/package.json" />
+      <path value="$PROJECT_DIR$/vendor/gx/ipfs/QmfXU2MhWoegxHoeMd3A2ytL2P6CY4FfqGWc23LTNWBwZt/go-multiaddr-dns/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="810" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="go-ipfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-ipfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-ipfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-ipfs" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-ipfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-ipfs" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="ipfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-ipfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-ipfs" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-ipfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-ipfs" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
+              <item name="fsrepo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-ipfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="go-ipfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="GOPATH &lt;go-ipfs&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
+            </path>
+            <path>
+              <item name="go-ipfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="GOPATH &lt;go-ipfs&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-ipfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="GOPATH &lt;go-ipfs&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-ipfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="GOPATH &lt;go-ipfs&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="ipfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build daemon.go init.go ipfs.go main.go">
+    <configuration name="go build daemon.go init.go ipfs.go main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-ipfs" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <parameters value="daemon" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/cmd/ipfs/daemon.go|$PROJECT_DIR$/cmd/ipfs/init.go|$PROJECT_DIR$/cmd/ipfs/ipfs.go|$PROJECT_DIR$/cmd/ipfs/main.go" />
+      <package value="github.com/ipfs/go-ipfs" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-ipfs" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/cmd/ipfs/main.go" />
+      <package value="github.com/ipfs/go-ipfs" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build daemon.go init.go ipfs.go main.go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build daemon.go init.go ipfs.go main.go" />
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="810" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.0" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42917252" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32867134" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.80224407" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23422159" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file:///usr/local/Cellar/go/1.10.3/libexec/src/os/exec/lp_unix.go</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file:///usr/local/Cellar/go/1.10.3/libexec/src/os/exec/lp_unix.go</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/cmd/ipfs/daemon.go</url>
+          <line>194</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file:///usr/local/Cellar/go/1.10.3/libexec/src/os/exec/lp_unix.go</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="76" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/gx/ipfs/QmdE4gMduCKCGAcczM2F5ioYDfdeKuPix138wrES1YSr7f/go-ipfs-cmdkit/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/commands/dag/dag.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../multiformats/go-multiaddr/transcoders.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../multiformats/go-multiaddr/codec.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#19#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/io/io.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/os/exec.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="205" column="12" selection-start-line="205" selection-start-column="7" selection-end-line="205" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/os/signal/signal.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-952">
+          <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/syscall/zerrors_darwin_amd64.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="1253" column="10" selection-start-line="1253" selection-start-column="4" selection-end-line="1253" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/ipfs/dist/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-115" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/ipfs/runmain_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/ipfs/ipfs.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="43" column="15" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="15" />
+          <folding>
+            <element signature="e#14#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/ipfs/dist/install.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../multiformats/go-multiaddr/interface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../multiformats/go-multiaddr-net/convert.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/runtime/proc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9797">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../multiformats/go-multiaddr-dns/madns/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding>
+            <element signature="e#14#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../multiformats/go-multiaddr-dns/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="2360" selection-start-line="2360" selection-end-line="2360" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/runtime/os_darwin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="437" selection-start-line="437" selection-end-line="437" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/runtime/sys_darwin_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="417" selection-start-line="417" selection-end-line="417" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../multiformats/go-multiaddr-dns/resolve.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="171" column="1" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="1" />
+          <folding>
+            <element signature="e#15#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="543" selection-start-line="543" selection-end-line="543" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../multiformats/go-multiaddr-dns/dns.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#15#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../libp2p/go-libp2p-circuit/transport.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#15#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../multiformats/go-multiaddr/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mk/gx.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/config/bootstrap_peers.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../multiformats/go-multiaddr-dns/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gx/ipfs/QmfXU2MhWoegxHoeMd3A2ytL2P6CY4FfqGWc23LTNWBwZt/go-multiaddr-dns/dns.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../multiformats/go-multiaddr/multiaddr.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1297">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+          <folding>
+            <element signature="e#19#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/text/template/exec.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="179" column="7" selection-start-line="179" selection-start-column="6" selection-end-line="179" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../multiformats/go-multiaddr/protocols.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+          <folding>
+            <element signature="e#19#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/ipfs/init.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../go-ipfs-cmds/request.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/response.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/command.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-597">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <element signature="e#289#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../go-ipfs-cmds/opts.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../go-ipfs-cmds/encoding.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../go-ipfs-cmds/http/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="73" column="15" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../go-ipfs-cmds/command.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+          <folding>
+            <element signature="e#285#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../go-ipfs-cmds/executor.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="107" column="11" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../go-ipfs-cmds/cli/helptext.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="e#13#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/request.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#18#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/fsrepo/fsrepo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="155" column="36" selection-start-line="155" selection-start-column="20" selection-end-line="155" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/ipfs/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+          <folding>
+            <element signature="e#69#969#0" expanded="true" />
+            <element signature="e#3524#3769#0" />
+            <element signature="e#4594#4916#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../go-ipfs-cmds/cli/run.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#13#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../go-ipfs-cmds/cli/parse.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#13#277#0" expanded="true" />
+            <element signature="e#2650#2770#0" />
+            <element signature="e#2773#3049#0" />
+            <element signature="e#3053#3422#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/os/exec/lp_unix.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="982">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/ipfs/daemon.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="257" column="27" selection-start-line="257" selection-start-column="27" selection-end-line="257" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/fsrepo/migrations/migrations.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
