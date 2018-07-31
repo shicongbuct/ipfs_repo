@@ -22,9 +22,9 @@ import (
 	migrate "github.com/ipfs/go-ipfs/repo/fsrepo/migrations"
 
 	cmds "github.com/ipfs/go-ipfs-cmds"
-	mprome "gx/ipfs/QmUGLYA38oUQstGTYfG3ECcu4G9QT8aHfy72bjHLyx7zzh/go-metrics-prometheus"
+	mprome "github.com/ipfs/go-metrics-prometheus"
 	"github.com/multiformats/go-multiaddr-net"
-	"gx/ipfs/QmX3QZ5jHEPidwUrymXV1iSCSUhdGxj15sm2gP4jKMef7B/client_golang/prometheus"
+	"github.com/gxed/client_golang/prometheus"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/ipfs/go-ipfs-cmdkit"
 )
