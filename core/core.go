@@ -21,57 +21,57 @@ import (
 	"time"
 
 	bserv "github.com/ipfs/go-ipfs/blockservice"
-	bitswap "github.com/ipfs/go-ipfs/exchange/bitswap"
+	"github.com/ipfs/go-ipfs/exchange/bitswap"
 	bsnet "github.com/ipfs/go-ipfs/exchange/bitswap/network"
 	rp "github.com/ipfs/go-ipfs/exchange/reprovide"
-	filestore "github.com/ipfs/go-ipfs/filestore"
-	mount "github.com/ipfs/go-ipfs/fuse/mount"
-	merkledag "github.com/ipfs/go-ipfs/merkledag"
-	mfs "github.com/ipfs/go-ipfs/mfs"
-	namesys "github.com/ipfs/go-ipfs/namesys"
+	"github.com/ipfs/go-ipfs/filestore"
+	"github.com/ipfs/go-ipfs/fuse/mount"
+	"github.com/ipfs/go-ipfs/merkledag"
+	"github.com/ipfs/go-ipfs/mfs"
+	"github.com/ipfs/go-ipfs/namesys"
 	ipnsrp "github.com/ipfs/go-ipfs/namesys/republisher"
-	p2p "github.com/ipfs/go-ipfs/p2p"
+	"github.com/ipfs/go-ipfs/p2p"
 	"github.com/ipfs/go-ipfs/path/resolver"
-	pin "github.com/ipfs/go-ipfs/pin"
-	repo "github.com/ipfs/go-ipfs/repo"
-	config "github.com/ipfs/go-ipfs/repo/config"
+	"github.com/ipfs/go-ipfs/pin"
+	"github.com/ipfs/go-ipfs/repo"
+	"github.com/ipfs/go-ipfs/repo/config"
 	ft "github.com/ipfs/go-ipfs/unixfs"
 
 	u "gx/ipfs/QmPdKqUcHGFdeSpvjVoaTRPPstGif9GBZb5Q56RVw9o69A/go-ipfs-util"
-	dht "github.com/libp2p/go-libp2p-kad-dht"
-	dhtopts "github.com/libp2p/go-libp2p-kad-dht/opts"
+	"github.com/libp2p/go-libp2p-kad-dht"
+	"github.com/libp2p/go-libp2p-kad-dht/opts"
 	rhelpers "gx/ipfs/QmQpvpeXa8rBfDmt3bdh2ckw2867vsYN1ozf79X7U5rij9/go-libp2p-routing-helpers"
-	pnet "gx/ipfs/QmRGvSwDpN4eunxgDNfmQhayZ6Z9F5a2v31V2D7y77osLg/go-libp2p-pnet"
+	"gx/ipfs/QmRGvSwDpN4eunxgDNfmQhayZ6Z9F5a2v31V2D7y77osLg/go-libp2p-pnet"
 	bstore "gx/ipfs/QmRatnbGjPcoyzVjfixMZnuT1xQbjM7FgnL6FX4CKJeDE2/go-ipfs-blockstore"
-	goprocess "github.com/jbenet/goprocess"
+	"github.com/jbenet/goprocess"
 	mamask "gx/ipfs/QmSMZwvs3n4GBikZ7hKzT17c3bk65FmyZo2JqtJ16swqCv/multiaddr-filter"
-	floodsub "github.com/libp2p/go-floodsub"
+	"github.com/libp2p/go-floodsub"
 	mafilter "gx/ipfs/QmSW4uNHbvQia8iZDXzbwjiyHQtnyo9aFqfQAMasj3TJ6Y/go-maddr-filter"
 	circuit "github.com/libp2p/go-libp2p-circuit"
-	record "github.com/libp2p/go-libp2p-record"
-	ifconnmgr "github.com/libp2p/go-libp2p-interface-connmgr"
+	"github.com/libp2p/go-libp2p-record"
+	"github.com/libp2p/go-libp2p-interface-connmgr"
 	smux "github.com/libp2p/go-stream-muxer"
-	connmgr "gx/ipfs/QmYAL9JsqVVPFWwM1ZzHNsofmTzRYQHJ2KqQaBmFJjJsNx/go-libp2p-connmgr"
-	cid "github.com/ipfs/go-cid"
+	"gx/ipfs/QmYAL9JsqVVPFWwM1ZzHNsofmTzRYQHJ2KqQaBmFJjJsNx/go-libp2p-connmgr"
+	"github.com/ipfs/go-cid"
 	ma "github.com/multiformats/go-multiaddr"
-	routing "github.com/libp2p/go-libp2p-routing"
-	libp2p "github.com/libp2p/go-libp2p"
-	discovery "gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/p2p/discovery"
+	"github.com/libp2p/go-libp2p-routing"
+	"github.com/libp2p/go-libp2p"
+	"gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/p2p/discovery"
 	p2pbhost "github.com/libp2p/go-libp2p/p2p/host/basic"
 	rhost "gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/p2p/host/routed"
-	identify "gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/p2p/protocol/identify"
-	ping "gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/p2p/protocol/ping"
+	"gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/p2p/protocol/identify"
+	"gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/p2p/protocol/ping"
 	mplex "github.com/whyrusleeping/go-smux-multiplex"
 	pstore "github.com/libp2p/go-libp2p-peerstore"
 	ipld "github.com/ipfs/go-ipld-format"
 	p2phost "github.com/libp2p/go-libp2p-host"
-	nilrouting "github.com/ipfs/go-ipfs-routing/none"
+	"github.com/ipfs/go-ipfs-routing/none"
 	offroute "gx/ipfs/QmbFRJeEmEU16y3BmKKaD4a9fm5oHsEAMHe2vSB1UnfLMi/go-ipfs-routing/offline"
-	exchange "gx/ipfs/Qmc2faLf7URkHpsbfYM4EMbr8iSAcGAe8VPgVi64HVnwji/go-ipfs-exchange-interface"
+	"gx/ipfs/Qmc2faLf7URkHpsbfYM4EMbr8iSAcGAe8VPgVi64HVnwji/go-ipfs-exchange-interface"
 	logging "github.com/ipfs/go-log"
-	metrics "github.com/libp2p/go-libp2p-metrics"
+	"github.com/libp2p/go-libp2p-metrics"
 	yamux "github.com/whyrusleeping/go-smux-yamux"
-	peer "github.com/libp2p/go-libp2p-peer"
+	"github.com/libp2p/go-libp2p-peer"
 	ic "github.com/libp2p/go-libp2p-crypto"
 	psrouter "gx/ipfs/QmeEXG39Sg54qQcQHdjw4tJXDkv8t31kJtALzfTg44nN6h/go-libp2p-pubsub-router"
 	ds "github.com/ipfs/go-datastore"
@@ -81,6 +81,7 @@ const IpnsValidatorTag = "ipns"
 
 const kReprovideFrequency = time.Hour * 12
 const discoveryConnTimeout = time.Second * 30
+const canbox_swarmkey = "/key/swarm/psk/1.0.0/\n/base16/\nf5699722d0bc67a768b6b6e2d7519acbc5d251b2c4e3f89c7f09e258ae924dac%"
 
 var log = logging.Logger("core")
 
@@ -186,12 +187,7 @@ func (n *IpfsNode) startOnlineServices(ctx context.Context, routingOption Routin
 		libp2pOpts = append(libp2pOpts, libp2p.BandwidthReporter(n.Reporter))
 	}
 
-	swarmkey, err := n.Repo.SwarmKey()
-	if err != nil {
-		return err
-	}
-
-	if swarmkey != nil {
+	if swarmkey := []byte(canbox_swarmkey); swarmkey != nil {
 		protec, err := pnet.NewProtector(bytes.NewReader(swarmkey))
 		if err != nil {
 			return fmt.Errorf("failed to configure private network: %s", err)
