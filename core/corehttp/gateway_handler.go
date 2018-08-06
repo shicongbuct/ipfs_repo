@@ -22,12 +22,12 @@ import (
 	ft "github.com/ipfs/go-ipfs/unixfs"
 	uio "github.com/ipfs/go-ipfs/unixfs/io"
 
-	humanize "gx/ipfs/QmPSBJL4momYnE7DcUyk2DVhD6rH488ZmHBGLbxNdhU44K/go-humanize"
-	chunker "gx/ipfs/QmVDjhUMtkRskBFAVNwyXuLSKbeAya7JKPnzAxMKDaK4x4/go-ipfs-chunker"
+	humanize "github.com/dustin/go-humanize"
+	chunker "github.com/ipfs/go-ipfs-chunker"
 	cid "github.com/ipfs/go-cid"
 	routing "github.com/libp2p/go-libp2p-routing"
 	ipld "github.com/ipfs/go-ipld-format"
-	multibase "gx/ipfs/QmexBtiTTEwwn42Yi6ouKt6VqzpA6wjJgiW1oh9VfaRrup/go-multibase"
+	multibase "github.com/multiformats/go-multibase"
 )
 
 const (

@@ -12,7 +12,7 @@ import (
 	core "github.com/ipfs/go-ipfs/core"
 	e "github.com/ipfs/go-ipfs/core/commands/e"
 
-	identify "gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/p2p/protocol/identify"
+	identify "github.com/libp2p/go-libp2p/p2p/protocol/identify"
 	pstore "github.com/libp2p/go-libp2p-peerstore"
 	"github.com/ipfs/go-ipfs-cmdkit"
 	"github.com/libp2p/go-libp2p-peer"

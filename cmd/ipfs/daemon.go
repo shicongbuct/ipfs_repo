@@ -336,6 +336,7 @@ func daemonFunc(req *cmds.Request, re cmds.ResponseEmitter, env cmds.Environment
 	node.SetLocal(false)
 
 	if node.PNetFingerprint != nil {
+		fmt.Printf("Swarm key fingerprint: %x\n", node.PNetFingerprint)
 		fmt.Println("Swarm is limited to private network of peers with the swarm key")
 		fmt.Println("Swarm key fingerprint: canbox_network")
 	}

@@ -7,7 +7,7 @@ import (
 
 	"github.com/ipfs/go-ipfs/pin"
 
-	bs "gx/ipfs/QmRatnbGjPcoyzVjfixMZnuT1xQbjM7FgnL6FX4CKJeDE2/go-ipfs-blockstore"
+	bs "github.com/ipfs/go-ipfs-blockstore"
 	cid "github.com/ipfs/go-cid"
 	ds "github.com/ipfs/go-datastore"
 )

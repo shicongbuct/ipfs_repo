@@ -11,7 +11,7 @@ import (
 	gc "github.com/ipfs/go-ipfs/pin/gc"
 	repo "github.com/ipfs/go-ipfs/repo"
 
-	humanize "gx/ipfs/QmPSBJL4momYnE7DcUyk2DVhD6rH488ZmHBGLbxNdhU44K/go-humanize"
+	humanize "github.com/dustin/go-humanize"
 	cid "github.com/ipfs/go-cid"
 	logging "github.com/ipfs/go-log"
 )

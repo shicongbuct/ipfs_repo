@@ -19,8 +19,8 @@ import (
 	cmds "github.com/ipfs/go-ipfs-cmds"
 	mh "github.com/multiformats/go-multihash"
 	pb "gx/ipfs/QmPtj12fdwuAqj9sBSTNUxBNu8kCGNp8b3o8yUzMm5GHpq/pb"
-	bstore "gx/ipfs/QmRatnbGjPcoyzVjfixMZnuT1xQbjM7FgnL6FX4CKJeDE2/go-ipfs-blockstore"
-	offline "gx/ipfs/QmShbyKV9P7QuFecDHXsgrQ4rxxm71MUkGVpwedT4VQ8Bf/go-ipfs-exchange-offline"
+	bstore "github.com/ipfs/go-ipfs-blockstore"
+	offline "github.com/ipfs/go-ipfs-exchange-offline"
 	cmdkit "github.com/ipfs/go-ipfs-cmdkit"
 	files "github.com/ipfs/go-ipfs-cmdkit/files"
 )

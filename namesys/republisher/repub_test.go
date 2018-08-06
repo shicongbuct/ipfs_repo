@@ -13,7 +13,7 @@ import (
 	path "github.com/ipfs/go-ipfs/path"
 
 	goprocess "github.com/jbenet/goprocess"
-	mocknet "gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/p2p/net/mock"
+	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
 	pstore "github.com/libp2p/go-libp2p-peerstore"
 )
 

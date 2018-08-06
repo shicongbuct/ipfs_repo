@@ -20,7 +20,7 @@ import (
 	repo "github.com/ipfs/go-ipfs/repo"
 	config "github.com/ipfs/go-ipfs/repo/config"
 
-	id "gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/p2p/protocol/identify"
+	id "github.com/libp2p/go-libp2p/p2p/protocol/identify"
 	ci "github.com/libp2p/go-libp2p-crypto"
 	datastore "github.com/ipfs/go-datastore"
 	syncds "github.com/ipfs/go-datastore/sync"

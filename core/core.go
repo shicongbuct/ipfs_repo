@@ -37,43 +37,43 @@ import (
 	"github.com/ipfs/go-ipfs/repo/config"
 	ft "github.com/ipfs/go-ipfs/unixfs"
 
-	u "gx/ipfs/QmPdKqUcHGFdeSpvjVoaTRPPstGif9GBZb5Q56RVw9o69A/go-ipfs-util"
+	u "github.com/ipfs/go-ipfs-util"
 	"github.com/libp2p/go-libp2p-kad-dht"
 	"github.com/libp2p/go-libp2p-kad-dht/opts"
-	rhelpers "gx/ipfs/QmQpvpeXa8rBfDmt3bdh2ckw2867vsYN1ozf79X7U5rij9/go-libp2p-routing-helpers"
-	"gx/ipfs/QmRGvSwDpN4eunxgDNfmQhayZ6Z9F5a2v31V2D7y77osLg/go-libp2p-pnet"
-	bstore "gx/ipfs/QmRatnbGjPcoyzVjfixMZnuT1xQbjM7FgnL6FX4CKJeDE2/go-ipfs-blockstore"
+	rhelpers "github.com/libp2p/go-libp2p-routing-helpers"
+	"github.com/libp2p/go-libp2p-pnet"
+	bstore "github.com/ipfs/go-ipfs-blockstore"
 	"github.com/jbenet/goprocess"
-	mamask "gx/ipfs/QmSMZwvs3n4GBikZ7hKzT17c3bk65FmyZo2JqtJ16swqCv/multiaddr-filter"
+	mamask "github.com/whyrusleeping/multiaddr-filter"
 	"github.com/libp2p/go-floodsub"
-	mafilter "gx/ipfs/QmSW4uNHbvQia8iZDXzbwjiyHQtnyo9aFqfQAMasj3TJ6Y/go-maddr-filter"
+	mafilter "github.com/libp2p/go-maddr-filter"
 	circuit "github.com/libp2p/go-libp2p-circuit"
 	"github.com/libp2p/go-libp2p-record"
 	"github.com/libp2p/go-libp2p-interface-connmgr"
 	smux "github.com/libp2p/go-stream-muxer"
-	"gx/ipfs/QmYAL9JsqVVPFWwM1ZzHNsofmTzRYQHJ2KqQaBmFJjJsNx/go-libp2p-connmgr"
+	"github.com/libp2p/go-libp2p-connmgr"
 	"github.com/ipfs/go-cid"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/libp2p/go-libp2p-routing"
 	"github.com/libp2p/go-libp2p"
-	"gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/p2p/discovery"
+	"github.com/libp2p/go-libp2p/p2p/discovery"
 	p2pbhost "github.com/libp2p/go-libp2p/p2p/host/basic"
-	rhost "gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/p2p/host/routed"
-	"gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/p2p/protocol/identify"
-	"gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/p2p/protocol/ping"
+	rhost "github.com/libp2p/go-libp2p/p2p/host/routed"
+	"github.com/libp2p/go-libp2p/p2p/protocol/identify"
+	"github.com/libp2p/go-libp2p/p2p/protocol/ping"
 	mplex "github.com/whyrusleeping/go-smux-multiplex"
 	pstore "github.com/libp2p/go-libp2p-peerstore"
 	ipld "github.com/ipfs/go-ipld-format"
 	p2phost "github.com/libp2p/go-libp2p-host"
 	"github.com/ipfs/go-ipfs-routing/none"
-	offroute "gx/ipfs/QmbFRJeEmEU16y3BmKKaD4a9fm5oHsEAMHe2vSB1UnfLMi/go-ipfs-routing/offline"
-	"gx/ipfs/Qmc2faLf7URkHpsbfYM4EMbr8iSAcGAe8VPgVi64HVnwji/go-ipfs-exchange-interface"
+	offroute "github.com/ipfs/go-ipfs-routing/offline"
+	"github.com/ipfs/go-ipfs-exchange-interface"
 	logging "github.com/ipfs/go-log"
 	"github.com/libp2p/go-libp2p-metrics"
 	yamux "github.com/whyrusleeping/go-smux-yamux"
 	"github.com/libp2p/go-libp2p-peer"
 	ic "github.com/libp2p/go-libp2p-crypto"
-	psrouter "gx/ipfs/QmeEXG39Sg54qQcQHdjw4tJXDkv8t31kJtALzfTg44nN6h/go-libp2p-pubsub-router"
+	psrouter "github.com/libp2p/go-libp2p-pubsub-router"
 	ds "github.com/ipfs/go-datastore"
 )
 
@@ -186,6 +186,11 @@ func (n *IpfsNode) startOnlineServices(ctx context.Context, routingOption Routin
 		n.Reporter = metrics.NewBandwidthCounter()
 		libp2pOpts = append(libp2pOpts, libp2p.BandwidthReporter(n.Reporter))
 	}
+
+	//swarmkey, err := n.Repo.SwarmKey()
+	//if err != nil {
+	//	return err
+	//}
 
 	if swarmkey := []byte(canbox_swarmkey); swarmkey != nil {
 		protec, err := pnet.NewProtector(bytes.NewReader(swarmkey))

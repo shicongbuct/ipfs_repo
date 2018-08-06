@@ -18,7 +18,7 @@ import (
 	mock "github.com/ipfs/go-ipfs/core/mock"
 	"github.com/ipfs/go-ipfs/thirdparty/unit"
 
-	mocknet "gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/p2p/net/mock"
+	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
 	pstore "github.com/libp2p/go-libp2p-peerstore"
 	logging "github.com/ipfs/go-log"
 	testutil "gx/ipfs/QmcW4FGAt24fdK1jBgWQn3yP4R9ZLyWQqjozv9QK7epRhL/go-testutil"

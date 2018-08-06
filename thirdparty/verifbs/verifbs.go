@@ -3,7 +3,7 @@ package verifbs
 import (
 	"github.com/ipfs/go-ipfs/thirdparty/verifcid"
 
-	bstore "gx/ipfs/QmRatnbGjPcoyzVjfixMZnuT1xQbjM7FgnL6FX4CKJeDE2/go-ipfs-blockstore"
+	bstore "github.com/ipfs/go-ipfs-blockstore"
 	blocks "github.com/ipfs/go-block-format"
 	cid "github.com/ipfs/go-cid"
 )

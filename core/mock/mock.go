@@ -8,8 +8,8 @@ import (
 	"github.com/ipfs/go-ipfs/repo"
 	config "github.com/ipfs/go-ipfs/repo/config"
 
-	libp2p "gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p"
-	mocknet "gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/p2p/net/mock"
+	libp2p "github.com/libp2p/go-libp2p"
+	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
 	pstore "github.com/libp2p/go-libp2p-peerstore"
 	host "github.com/libp2p/go-libp2p-host"
 	testutil "gx/ipfs/QmcW4FGAt24fdK1jBgWQn3yP4R9ZLyWQqjozv9QK7epRhL/go-testutil"

@@ -12,8 +12,8 @@ import (
 	pin "github.com/ipfs/go-ipfs/pin"
 	"github.com/ipfs/go-ipfs/thirdparty/verifcid"
 
-	bstore "gx/ipfs/QmRatnbGjPcoyzVjfixMZnuT1xQbjM7FgnL6FX4CKJeDE2/go-ipfs-blockstore"
-	offline "gx/ipfs/QmShbyKV9P7QuFecDHXsgrQ4rxxm71MUkGVpwedT4VQ8Bf/go-ipfs-exchange-offline"
+	bstore "github.com/ipfs/go-ipfs-blockstore"
+	offline "github.com/ipfs/go-ipfs-exchange-offline"
 	cid "github.com/ipfs/go-cid"
 	ipld "github.com/ipfs/go-ipld-format"
 	logging "github.com/ipfs/go-log"
